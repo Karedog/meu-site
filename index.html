@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Agencia de Viagens</title>
+</head>
+<body>
+    <header>
+        <div class="limite-lateral">
+            <img src="./assets/imagens/local-logo.png" alt="">
+            <h1>Agencia de Viagens</h1>
+        </div>
+    </header>
+    <main>
+        <section class="formulario">
+            <div>
+                <div class="limite-lateral">
+                    <div class="form-cabecalho">
+                        <img src="./assets/imagens/aviao.png" alt="">
+                        <h3>Solicite seu orçameto</h3>
+                    </div>
+                    <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula3/" class="formulario-dados">
+                        <h2>Informe seus dados</h2>
+                        <div class="form-dados-pessoais">
+                            
+                            <label for="">Nome</label>
+                            <input type="text" name="form-nome" placeholder="Nome completo">
+                            <label for="">Email</label>
+                            <input type="email" name="form-email" placeholder="Email para contato">
+                            <label for="">Celular</label>
+                            <input type="number" name="form-number" placeholder="(xx) xxxxx-xxxx">
+                        </div>
+                        <div class="form-viagem">
+                            <div>
+                                <label for="form-data-ida">Data de ida</label>
+                                <input type="date" name="form-data-ida">
+                                <label for="form-origem">Origem</label>
+                                <select name="form-origem" id="">
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="Teste">Tese</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="form-data-volta">Data da volta</label>
+                                <input type="date" name="form-data-volta">
+                                <label for="form-destino">Destino</label>
+                                <select name="form-destino" id="">
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="Teste">Tese</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-cama-infantil">
+                            <label>Quarto com cama cama infantil?</label>
+                            <div class="cama-infantil-radio">
+                                <div>
+                                    <input type="radio" name="cama-infantil" value="sim">
+                                    <label for="">Sim</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="cama-infantil" value="nao">
+                                    <label for="">Não</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Preferência de hospedagem</label>
+                            <div class="form-preferencias">
+                                <div class="checkbox">
+                                    <input type="checkbox">
+                                    <label for="" name="piscina" >piscina</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" name="wifi">
+                                    <label for="">Wifi</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" name="garagem">
+                                    <label for="">Garagem</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" name="suite">
+                                    <label for="">Suite</label>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <button type="submit" class="form-botao">Solicitar orçamento</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="ofertas limite-lateral">
+            <h2>Ofertas</h2>
+            <p>Com até <span>50%</span>de desconto</p>
+            <div class="lugares-ofertas">
+                <div class="destaque">
+                    <img src="./assets/imagens/rio.jpg" alt="">
+                    <div class="lugares-ofertas-texto">
+                        <p>Rio de Janeiro</p>
+                    </div>
+                </div>
+                <div class="mais-ofertas">
+                    <div class="mais-ofertas-lugares">
+                        <img src="assets/imagens/manaus.jpg" alt="">
+                        <div class="mais-ofertas-texto">
+                            <p>Manaus</p>
+                        </div> 
+                        <img src="assets/imagens/saopaulo.jpg" alt="">
+                        <div class="mais-ofertas-texto">
+                            <p>Sâo paulo</p>
+                        </div> 
+                    </div>
+                    <div>
+                        <img src="assets/imagens/niteroi.jpg" alt="">
+                        <div class="mais-ofertas-texto">
+                            <p>Niteroi</p>
+                        </div> 
+                    
+                        <img src="./assets/imagens/maranhao.jpg" alt="">
+                        <div class="mais-ofertas-texto">
+                            <p>Maranhão</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        
+        </section >
+        <section class="natureza limite-lateral">
+            <h2>Explore a natureza</h2>
+            <p>viaje e veja o melhor que a natureza tem a oferecer</p>
+            <div class="galeria-natureza">
+                <div>
+                    <img src="./assets/imagens/lencol.jpg" alt="">
+                    <div>
+                        <h3>Lençois Maranhenses, Brasil</h3>
+                        <p>ida e volta a partir de R$79</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/imagens/goias.jpg" alt="">
+                    <div>
+                        <h3>Cachoeira Santa Bárbara, Brasil</h3>
+                        <p>ida e volta a partir de R$139</p>
+                    </div>
+                </div>
+
+            </div>
+        </section >
+        </main>
+        <footer>
+            <div class="limite-lateral rodape">
+                
+                <div class="rodape-contatos">
+                    <h2>Contato</h2>
+                    <div>
+                        <img src="./assets/imagens/local-logo.png" alt="">
+                        <p>Rio de Janeiro, RJ</p>
+                    </div>
+                    <div>
+                        <img src="./assets/imagens/local-logo.png" alt="">
+                        <p>Rio de Janeiro, RJ</p>
+                    </div>
+                    <div>
+                        <img src="./assets/imagens/local-logo.png" alt="">
+                        <p>Rio de Janeiro, RJ</p>
+                    </div>
+                </div>
+                <div class="rodape-redes-sociais">
+                    <h2>Nossas Redes Sociais</h2>
+                    <div>
+                        <img src="./assets/imagens/fb.png" alt="">
+                        <p>/AgenciaDeViagens</p>
+                    </div>
+                    <div>
+                        <img src="./assets/imagens/ig.png" alt="">
+                        <p>@AgenciaDeViagens</p>
+                    </div>
+                    <div>
+                        <img src="./assets/imagens/tt.png" alt="">
+                        <p>@AgenciaDeViagens</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+    </html>
